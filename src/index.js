@@ -77,3 +77,7 @@ function updateTimerValues({ days, hours, minutes, seconds }) {
   refs.minutes.textContent = addZero(minutes);
   refs.seconds.textContent = addZero(seconds);
 };
+
+function empty() {
+  
+}
